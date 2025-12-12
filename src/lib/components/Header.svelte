@@ -22,17 +22,18 @@
         <div class="absolute w-[1.5px] h-full bg-black"></div>
         <div class="absolute w-full h-[1.5px] bg-black"></div>
       </div>
-      <span class="font-bold text-xl tracking-widest text-[#1A1A1A]">HOLO</span>
+      <span class="font-bold text-xl tracking-widest text-[#1A1A1A]">SPARTAN</span>
     </a>
   </div>
 
   <div class="flex items-center gap-8">
     <nav class="hidden md:flex items-center gap-8 text-[13px] font-medium text-gray-600">
-      <a href="#biomarkers" class="hover:text-black transition-colors">Biomarkers</a>
+      <a href="#products" class="hover:text-black transition-colors">Products</a>
+      <a href="#results" class="hover:text-black transition-colors">Results</a>
       <a href="#faq" class="hover:text-black transition-colors">FAQ</a>
     </nav>
-    <a href="#join" class="bg-[#1A1A1A] text-white text-[13px] font-medium px-5 py-2.5 rounded-sm hover:bg-black transition-colors">
-      Join now
+    <a href="#shop" class="bg-[#1A1A1A] text-white text-[13px] font-medium px-5 py-2.5 rounded-sm hover:bg-black transition-colors">
+      Shop Now
     </a>
   </div>
 </header>

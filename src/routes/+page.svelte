@@ -14,71 +14,65 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-confident-man-in-his-30s-with-thick-heal-1765523199208-0.webp",
+    "/generated/image-man-massaging-hair-product-into-scalp-in-1765523426535-0.webp",
+    "/generated/image-close-up-of-healthy-scalp-and-hair-folli-1765523202597-2.webp",
+    "/generated/image-professional-man-in-business-casual-atti-1765523206263-3.webp",
+    "/generated/image-mans-hands-holding-premium-hair-care-pro-1765523208798-4.webp",
+    "/generated/image-athletic-man-with-thick-dark-hair-in-cas-1765523429273-1.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Medical-Grade Exfoliation",
+      desc: "Our patented silicone bristles remove toxins and buildup from your scalp, allowing nutrients to reach hair follicles where they're needed most.",
+      image: "/generated/image-medical-grade-silicone-scalp-brush-on-cl-1765523211282-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Plant-Powered Formula",
+      desc: "100% natural botanical ingredients stimulate follicles and nourish your scalp. No harsh chemicals, just pure science-backed results.",
+      image: "/generated/image-natural-botanical-ingredients-like-saw-p-1765523213612-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Doctor Trusted",
+      desc: "Endorsed by 7+ board-certified dermatologists and urologists. The brand health experts recommend for real hair regrowth.",
+      image: "/generated/image-professional-male-dermatologist-in-white-1765523216556-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Exfoliate Your Scalp",
+      desc: "Use the Premium Scalp Brush with medical-grade silicone bristles to remove toxins, buildup, and dead skin cells. Just one use reveals a healthier scalp.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Apply Root Activator Shampoo",
+      desc: "Massage our plant-powered formula into your clean scalp 3-4 times per week. Natural ingredients penetrate deep to nourish follicles.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "See First Results",
+      desc: "Week 1: Healthier scalp and more vibrant hair. Week 6: Hair roots growing back with visible results. Week 12: Thicker, stronger new growth.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Enjoy Fuller Hair",
+      desc: "By week 18, experience fuller, thicker hair with complete coverage. Continue the routine to maintain your transformation and confidence.",
       image: "notes"
-    },
-    {
-      step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
-      image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "How long until I see results with SPARTAN?",
+    "Is SPARTAN safe for all hair types?",
+    "What makes SPARTAN different from other hair loss solutions?",
+    "Do I need to use both the brush and shampoo?",
+    "What's included in the 90-day money-back guarantee?"
   ];
 </script>
 
@@ -88,13 +82,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Reverse Hair Thinning.<br />Reclaim Your Confidence.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Revolutionary solutions for the modern man. Medical-grade exfoliation meets botanical follicle stimulation. Trusted by 50,000+ men and endorsed by doctors.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Shop Hair Growth System
     </button>
   </section>
 
@@ -103,67 +97,50 @@
     <div class="flex gap-4 px-6 min-w-max">
       {#each heroImages as img, i}
         <div class="relative w-48 h-64 md:w-64 md:h-80 rounded-3xl overflow-hidden flex-shrink-0">
-          <img src={img} alt="Lifestyle" class="w-full h-full object-cover" />
+          <img src={img} alt="SPARTAN Hair Growth Results" class="w-full h-full object-cover" />
         </div>
       {/each}
     </div>
   </div>
 
-  <!-- App Feature Section -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <!-- Product Feature Section -->
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="products">
     <div class="bg-white rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 shadow-sm">
-      <!-- Phone Mockup -->
+      <!-- Product Visual -->
       <div class="w-full md:w-1/2 flex justify-center">
-        <div class="relative w-[280px] h-[580px] bg-black rounded-[40px] border-[8px] border-black shadow-2xl overflow-hidden">
-          <div class="absolute top-0 left-0 right-0 h-6 bg-black z-20 flex justify-center">
-            <div class="w-20 h-4 bg-black rounded-b-xl"></div>
-          </div>
-          <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
-            <!-- Mock UI -->
-            <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
-            </div>
-            <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
-            </div>
-            <div class="space-y-3">
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
-              </div>
-            </div>
-          </div>
+        <div class="relative w-full max-w-md aspect-square flex items-center justify-center">
+          <div class="absolute inset-0 bg-gradient-to-br from-primary-50 to-primary-100 rounded-full opacity-30 blur-3xl"></div>
+          <img src="/generated/image-medical-grade-silicone-scalp-brush-on-cl-1765523211282-6.webp" alt="SPARTAN Scalp Brush" class="relative z-10 w-4/5 h-4/5 object-contain drop-shadow-2xl" />
         </div>
       </div>
       
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          The Complete Hair Growth System.<br />
+          <span class="text-gray-500 text-2xl font-light">Medical-grade silicone exfoliation removes toxins. Plant-powered formula stimulates follicles. Results you can see in 6 weeks.</span>
         </h2>
-        <div class="flex items-center justify-between pt-4">
-          <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
-            {@html PlayCircle}
-            Watch video
-          </button>
-          <div class="flex gap-2">
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronLeft}
-            </button>
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronRight}
-            </button>
+        <div class="space-y-4">
+          <div class="flex items-start gap-3">
+            <span class="text-primary-600 mt-1">{@html Check}</span>
+            <div>
+              <div class="font-medium">Premium Scalp Brush</div>
+              <div class="text-sm text-gray-500">Medical-grade silicone bristles</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-primary-600 mt-1">{@html Check}</span>
+            <div>
+              <div class="font-medium">Root Activator Shampoo</div>
+              <div class="text-sm text-gray-500">100% natural botanical formula</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-primary-600 mt-1">{@html Check}</span>
+            <div>
+              <div class="font-medium">90-Day Guarantee</div>
+              <div class="text-sm text-gray-500">Risk-free money-back promise</div>
+            </div>
           </div>
         </div>
       </div>
@@ -174,10 +151,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Your hair. Your confidence. Your transformation.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        Hair loss isn't just about appearance—it's about how you feel every day. We identified the root cause: scalp blocked by toxins preventing nutrient absorption. Our dual-action solution removes toxins while nourishing your scalp and hair. No harsh chemicals. Just science-backed results that restore your confidence.
       </p>
     </div>
   </section>
@@ -199,15 +176,15 @@
   </section>
 
   <!-- Testimonial -->
-  <section class="py-24 px-6 max-w-4xl mx-auto text-center">
+  <section class="py-24 px-6 max-w-4xl mx-auto text-center" id="results">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "After just 8 weeks, I noticed real regrowth in my thinning areas. The scalp brush feels amazing and the shampoo doesn't have that chemical smell. My confidence is back and people are noticing. Best investment I've made in myself."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-happy-male-customer-in-his-30s-with-heal-1765523219365-9.webp" alt="Customer" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Marcus T.</div>
+        <div class="text-gray-500 text-xs">SPARTAN Customer</div>
       </div>
     </div>
   </section>
@@ -216,16 +193,16 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">50,000+ Happy Customers</h3>
+        <p class="text-gray-500 text-sm font-light">Join thousands of men who've reversed hair thinning and reclaimed their confidence with SPARTAN.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">Results in 6 Weeks</h3>
+        <p class="text-gray-500 text-sm font-light">See visible hair regrowth in thinning areas. Fuller, thicker coverage by week 18 with consistent use.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">90-Day Guarantee</h3>
+        <p class="text-gray-500 text-sm font-light">Try SPARTAN risk-free. If you're not satisfied, get a full refund. No questions asked.</p>
       </div>
     </div>
   </section>
@@ -234,77 +211,39 @@
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">Our dual-action system removes toxins blocking your scalp while delivering botanical nutrients directly to hair follicles. Simple routine, powerful results.</p>
     </div>
 
     <div class="space-y-6">
       {#each steps as step}
-        <div class="bg-white rounded-[40px] p-8 md:p-12 flex flex-col items-center text-center max-w-2xl mx-auto shadow-sm">
-          <div class="w-full text-left mb-8">
-            <span class="inline-block w-8 h-8 rounded-full border border-gray-200 text-center leading-8 text-sm font-medium mb-4">{step.step}</span>
+        <div class="bg-white rounded-[40px] p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto shadow-sm">
+          <div class="w-full md:w-2/3 text-left">
+            <span class="inline-block w-10 h-10 rounded-full bg-primary-100 text-primary-700 text-center leading-10 text-sm font-bold mb-4">{step.step}</span>
             <h3 class="text-2xl font-medium mb-3">{step.title}</h3>
-            <p class="text-gray-500 font-light text-sm max-w-lg">{step.desc}</p>
+            <p class="text-gray-500 font-light text-base">{step.desc}</p>
           </div>
           
-          <!-- Phone Mockup for Step -->
-          <div class="relative w-[240px] h-[480px] bg-black rounded-[35px] border-[6px] border-black shadow-xl overflow-hidden mt-4">
-             <div class="absolute top-0 left-0 right-0 h-5 bg-black z-20 flex justify-center">
-                <div class="w-16 h-3 bg-black rounded-b-lg"></div>
-             </div>
-             <div class="w-full h-full bg-white pt-8 px-3 overflow-hidden">
-                <!-- Dynamic Content based on step -->
-                {#if step.image === 'plan'}
-                  <div class="space-y-3 mt-4">
-                    <div class="p-3 border rounded-xl border-black bg-gray-50">
-                      <div class="font-bold text-xs mb-1">Optimal ID</div>
-                      <div class="h-1 w-full bg-gray-200 rounded"></div>
-                    </div>
-                    <div class="p-3 border rounded-xl border-gray-200">
-                       <div class="font-bold text-xs mb-1 text-gray-400">Essential</div>
-                       <div class="h-1 w-full bg-gray-100 rounded"></div>
-                    </div>
-                  </div>
-                {:else if step.image === 'schedule'}
-                   <div class="mt-4">
-                     <div class="text-center font-bold mb-4">Appointment</div>
-                     <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Map View</div>
-                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Confirm</button>
-                   </div>
-                {:else if step.image === 'results'}
-                   <div class="bg-black h-full -mx-3 -mt-8 pt-10 px-3 text-white">
-                      <div class="text-center mb-6">
-                        <div class="w-12 h-12 bg-gray-700 rounded-full mx-auto mb-2"></div>
-                        <div class="text-sm font-bold">Grace Parker</div>
-                      </div>
-                      <div class="space-y-2">
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
-                      </div>
-                   </div>
-                {:else if step.image === 'notes'}
-                   <div class="mt-4 space-y-3">
-                      <div class="font-bold text-sm">Health Status</div>
-                      <div class="text-[10px] text-gray-500 leading-relaxed">
-                        You usually make smart choices for your health through regular exercise...
-                      </div>
-                      <div class="bg-gray-50 p-2 rounded text-[10px] text-gray-600">
-                        Since your diet lacks enough fruits and vegetables...
-                      </div>
-                   </div>
-                {:else}
-                   <div class="mt-4 flex flex-col h-full">
-                      <div class="flex-1">
-                        <div class="bg-gray-100 p-2 rounded-lg rounded-tl-none text-[10px] mb-2 max-w-[80%]">
-                          What benefits can I get by bringing ApoB closer to the optimal range?
-                        </div>
-                        <div class="bg-blue-50 p-2 rounded-lg rounded-tr-none text-[10px] ml-auto max-w-[80%]">
-                          By lowering ApoB, you reduce the number of cholesterol-carrying particles...
-                        </div>
-                      </div>
-                      <div class="h-10 border-t mt-2"></div>
-                   </div>
-                {/if}
-             </div>
+          <!-- Simple Icon Visual -->
+          <div class="w-full md:w-1/3 flex justify-center">
+            <div class="w-32 h-32 rounded-full bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center">
+              {#if step.image === 'plan'}
+                <svg class="w-16 h-16 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                </svg>
+              {:else if step.image === 'schedule'}
+                <svg class="w-16 h-16 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+                </svg>
+              {:else if step.image === 'results'}
+                <svg class="w-16 h-16 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+              {:else}
+                <svg class="w-16 h-16 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"/>
+                </svg>
+              {/if}
+            </div>
           </div>
         </div>
       {/each}
@@ -314,100 +253,149 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Media Coverage Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
-        </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
-              {/each}
-           </svg>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Featured In</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs mb-8">Trusted by leading media outlets.</h2>
+          <div class="grid grid-cols-2 gap-6 mt-12">
+            <div class="text-gray-400 font-bold text-lg">LA WEEKLY</div>
+            <div class="text-gray-400 font-bold text-lg">USA TODAY</div>
+            <div class="text-gray-400 font-bold text-lg">GQ</div>
+            <div class="text-gray-400 font-bold text-lg">ROLLING STONE</div>
+          </div>
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Doctor Endorsements Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
-        </div>
-        <!-- Blurred Text Visual -->
-        <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
-           <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
-           </div>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Medical Backing</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs mb-8">Endorsed by 7+ board-certified doctors.</h2>
+          <div class="space-y-4 mt-8">
+            <div class="border-l-2 border-primary-500 pl-4">
+              <div class="text-sm font-medium">Dr. Jessica Burgy</div>
+              <div class="text-xs text-gray-400">Board Certified Dermatologist</div>
+            </div>
+            <div class="border-l-2 border-primary-500 pl-4">
+              <div class="text-sm font-medium">Dr. Omer Ibrahim</div>
+              <div class="text-xs text-gray-400">Dermatologist & Cosmetic Laser Specialist</div>
+            </div>
+            <div class="border-l-2 border-primary-500 pl-4">
+              <div class="text-sm font-medium">Dr. Stephen Lewellis</div>
+              <div class="text-xs text-gray-400">Board Certified Dermatologist</div>
+            </div>
+            <div class="text-xs text-gray-400 mt-6">+ 4 more medical professionals</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="shop">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Choose your transformation.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Premium hair growth solutions backed by science. All products come with our 90-day money-back guarantee and free shipping over $70.</p>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Scalp Brush -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Scalp Brush</h3>
+        <p class="text-sm text-gray-500 mb-6">Medical-grade exfoliation tool.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$19.90</span>
+          <div class="text-xs text-gray-400 line-through mt-1">Regular $49.95</div>
+          <div class="text-xs text-primary-600 font-medium mt-1">Save up to 66%</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Medical-grade silicone bristles
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Removes toxins & buildup
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Results after one use
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Add to Cart</button>
       </div>
 
-      <!-- Core Plan -->
-      <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+      <!-- Root Activator Shampoo -->
+      <div class="bg-white rounded-[32px] p-8 flex flex-col">
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Root Activator</h3>
+        <p class="text-sm text-gray-500 mb-6">Plant-powered shampoo.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$59.95</span>
+          <div class="text-xs text-gray-400 line-through mt-1">Regular $129.95</div>
+          <div class="text-xs text-primary-600 font-medium mt-1">Subscribe & Save 10%</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            100% natural ingredients
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Stimulates follicles
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Results in 4-8 weeks
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Add to Cart</button>
+      </div>
+
+      <!-- Full System -->
+      <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden border-2 border-primary-500">
+        <div class="absolute top-0 right-0 bg-primary-500 text-white px-4 py-1 rounded-bl-xl text-xs font-medium">Best Value</div>
+        <div class="w-12 h-12 bg-primary-500 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Full System</h3>
+        <p class="text-sm text-gray-500 mb-6">Complete hair growth solution.</p>
+        <div class="mb-8">
+          <span class="text-2xl font-medium">$179.95</span>
+          <div class="text-xs text-gray-400 line-through mt-1">Regular $409.60</div>
+          <div class="text-xs text-primary-600 font-medium mt-1">Save $229.65</div>
+        </div>
+        <ul class="space-y-4 mb-8 flex-1">
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Premium Scalp Brush included
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Root Activator Shampoo
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            90-day money-back guarantee
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-primary-600">{@html Check}</span>
+            Free shipping
+          </li>
+        </ul>
+        <button class="w-full bg-primary-600 text-white py-3 rounded-sm font-medium hover:bg-primary-700 transition-colors">Get Started</button>
       </div>
     </div>
   </section>
@@ -425,7 +413,7 @@
     </div>
     <div class="mt-12 text-center">
       <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
-        View all Frequently Asked Questions
+        View All FAQs
       </button>
     </div>
   </section>
@@ -441,28 +429,28 @@
               <div class="absolute w-[1.5px] h-full bg-black"></div>
               <div class="absolute w-full h-[1.5px] bg-black"></div>
            </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <span class="font-bold text-lg tracking-widest">SPARTAN</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
-          <a href="#" class="hover:text-black">Blog</a>
+          <a href="#products" class="hover:text-black">Products</a>
+          <a href="#results" class="hover:text-black">Results</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
         </nav>
 
         <div class="flex gap-4 text-gray-800">
+          <a href="https://instagram.com/tryspartan_us" target="_blank" rel="noopener" class="hover:text-black">{@html Instagram}</a>
           <a href="#" class="hover:text-black">{@html XIcon}</a>
-          <a href="#" class="hover:text-black">{@html Instagram}</a>
           <a href="#" class="hover:text-black">{@html LinkedIn}</a>
         </div>
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">SPARTAN provides hair growth and grooming products for informational and cosmetic purposes. These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary by individual. All testimonials are from real customers but individual results may differ. For medical concerns about hair loss, please consult with a licensed healthcare provider.</p>
+        <p>All SPARTAN products come with a 90-day money-back guarantee. If you're not satisfied with your results, contact us for a full refund. Free shipping applies to orders over $70 within the continental United States. For full details, see our Terms & Conditions.</p>
+        <p class="mt-2">By providing your contact information, you agree to receive promotional messages from SPARTAN. Message and data rates may apply. You can unsubscribe at any time.</p>
       </div>
     </div>
   </footer>
